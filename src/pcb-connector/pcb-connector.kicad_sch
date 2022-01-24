@@ -127,12 +127,17 @@
     )
   )
 
-
-  (no_connect (at 143.51 91.44) (uuid f71062e4-6324-439d-a4df-f6bb8992c93d))
+  (junction (at 142.24 93.98) (diameter 0) (color 0 0 0 0)
+    (uuid cefd0a94-cc8a-494c-9a46-c853604e1e17)
+  )
 
   (wire (pts (xy 149.86 114.3) (xy 149.86 115.57))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 336888cc-c125-43ec-abe3-99f94abaf9f5)
+  )
+  (wire (pts (xy 140.97 93.98) (xy 142.24 93.98))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 5b7004c0-970a-4c32-afa1-b9c30b457ebb)
   )
   (wire (pts (xy 142.24 93.98) (xy 142.24 95.25))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -153,6 +158,10 @@
   (wire (pts (xy 143.51 93.98) (xy 142.24 93.98))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b92d7a46-d46b-4e3d-907e-6edb860a8677)
+  )
+  (wire (pts (xy 140.97 91.44) (xy 143.51 91.44))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid bfe587c3-599b-43a0-925f-0e6550c42540)
   )
 
   (symbol (lib_id "power:GND") (at 142.24 115.57 0) (unit 1)
@@ -272,6 +281,21 @@
     (pin "1" (uuid b778e56d-aef3-48ca-a7ce-57459e070477))
   )
 
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 135.89 91.44 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid d0111086-5d68-4ab0-b707-7da6b263c90b)
+    (property "Reference" "J2" (id 0) (at 132.08 91.44 0))
+    (property "Value" "Conn_01x02" (id 1) (at 128.27 93.98 0))
+    (property "Footprint" "modular-rf-bench-footprints:edge-connector" (id 2) (at 135.89 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 135.89 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aae29862-3850-48eb-b7a8-38a62a8029dd))
+    (pin "2" (uuid 835d4ac3-3fb1-48d9-8c28-6093fe917376))
+  )
+
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 157.48 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d1af8ff1-df7c-4fe1-bbf6-2f8f953887df)
@@ -360,6 +384,9 @@
     )
     (path "/7c5779b7-3d70-4446-a23a-f4cf05b5eb95"
       (reference "J1") (unit 1) (value "Conn_01x02") (footprint "modular-rf-bench-footprints:edge-connector")
+    )
+    (path "/d0111086-5d68-4ab0-b707-7da6b263c90b"
+      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "modular-rf-bench-footprints:edge-connector")
     )
   )
 )
