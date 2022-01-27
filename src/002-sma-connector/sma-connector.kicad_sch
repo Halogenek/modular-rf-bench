@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "002-SMA Connector")
+    (date "2022-01-27")
+    (rev "1")
+    (company "Halidelabs")
+    (comment 1 "contact@halidelabs.eu")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_Coaxial" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0.254 3.048 0)
@@ -52,7 +60,7 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 0) (mid 0.2221 1.8083) (end -1.778 0.508)
+        (arc (start 1.778 0) (mid 0.222 1.8083) (end -1.778 0.508)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
