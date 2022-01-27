@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "003-PCB Connector")
+    (date "2022-01-27")
+    (rev "1")
+    (company "Halidelabs")
+    (comment 1 "contact@halidelabs.eu")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -202,7 +210,7 @@
     (property "Reference" "J1" (id 0) (at 151.13 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x02" (id 1) (at 151.13 93.9799 0)
+    (property "Value" "CONN" (id 1) (at 151.13 93.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "modular-rf-bench-footprints:edge-connector" (id 2) (at 148.59 91.44 0)
@@ -285,7 +293,7 @@
     (in_bom yes) (on_board yes)
     (uuid d0111086-5d68-4ab0-b707-7da6b263c90b)
     (property "Reference" "J2" (id 0) (at 132.08 91.44 0))
-    (property "Value" "Conn_01x02" (id 1) (at 128.27 93.98 0))
+    (property "Value" "CONN" (id 1) (at 130.81 93.98 0))
     (property "Footprint" "modular-rf-bench-footprints:edge-connector" (id 2) (at 135.89 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -383,10 +391,10 @@
       (reference "H4") (unit 1) (value "M2") (footprint "modular-rf-bench-footprints:M2-hole")
     )
     (path "/7c5779b7-3d70-4446-a23a-f4cf05b5eb95"
-      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "modular-rf-bench-footprints:edge-connector")
+      (reference "J1") (unit 1) (value "CONN") (footprint "modular-rf-bench-footprints:edge-connector")
     )
     (path "/d0111086-5d68-4ab0-b707-7da6b263c90b"
-      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "modular-rf-bench-footprints:edge-connector")
+      (reference "J2") (unit 1) (value "CONN") (footprint "modular-rf-bench-footprints:edge-connector")
     )
   )
 )
