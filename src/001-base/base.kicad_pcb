@@ -14,15 +14,15 @@
   )
 
   (layers
-    (0 "F.Cu" signal "Górna sygnałowa")
-    (31 "B.Cu" signal "Dolna sygnałowa")
-    (36 "B.SilkS" user "Dolna opisowa")
-    (38 "B.Mask" user "Dolna sodermaski")
-    (39 "F.Mask" user "Górna soldermaski")
-    (44 "Edge.Cuts" user "Krawędziowa")
-    (45 "Margin" user "Marginesu")
-    (46 "B.CrtYd" user "Dolne pola zajętości")
-    (47 "F.CrtYd" user "Górne pola zajętości")
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
   )
 
   (setup

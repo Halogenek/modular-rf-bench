@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "6.0.1-79c1e3a40b~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-01-27T21:51:34+01:00"
+    "CreationDate": "2022-01-29T11:36:58+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,37 +34,37 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "sma-connector-G\\u00F3rna sygna\\u0142owa.gbr",
+      "Path": "sma-connector-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sma-connector-Dolna sygna\\u0142owa.gbr",
+      "Path": "sma-connector-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sma-connector-G\\u00F3rna pasty.gbr",
+      "Path": "sma-connector-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sma-connector-G\\u00F3rna opisowa.gbr",
+      "Path": "sma-connector-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "sma-connector-G\\u00F3rna soldermaski.gbr",
+      "Path": "sma-connector-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "sma-connector-Dolna sodermaski.gbr",
+      "Path": "sma-connector-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "sma-connector-Kraw\\u0119dziowa.gbr",
+      "Path": "sma-connector-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -88,19 +88,19 @@
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "G\\u00F3rna sygna\\u0142owa"
+      "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.71,
       "Material": "FR4",
-      "Name": "G\\u00F3rna sygna\\u0142owa/Dolna sygna\\u0142owa",
-      "Notes": "Type: dielectric layer 1 (from G\\u00F3rna sygna\\u0142owa to Dolna sygna\\u0142owa)"
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "Dolna sygna\\u0142owa"
+      "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",

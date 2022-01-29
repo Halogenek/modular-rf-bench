@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "6.0.1-79c1e3a40b~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-01-27T21:08:30+01:00"
+    "CreationDate": "2022-01-29T11:27:01+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -33,32 +33,32 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "base-G\\u00F3rna sygna\\u0142owa.gbr",
+      "Path": "base-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "base-Dolna sygna\\u0142owa.gbr",
+      "Path": "base-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "base-Dolna opisowa.gbr",
+      "Path": "base-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "base-G\\u00F3rna soldermaski.gbr",
+      "Path": "base-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "base-Dolna sodermaski.gbr",
+      "Path": "base-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "base-Kraw\\u0119dziowa.gbr",
+      "Path": "base-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -73,19 +73,19 @@
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "G\\u00F3rna sygna\\u0142owa"
+      "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
       "Thickness": 1.51,
       "Material": "FR4",
-      "Name": "G\\u00F3rna sygna\\u0142owa/Dolna sygna\\u0142owa",
-      "Notes": "Type: dielectric layer 1 (from G\\u00F3rna sygna\\u0142owa to Dolna sygna\\u0142owa)"
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "Dolna sygna\\u0142owa"
+      "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
