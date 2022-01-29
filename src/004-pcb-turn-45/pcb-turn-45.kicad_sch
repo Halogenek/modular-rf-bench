@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "004 PCB 45 Turn")
+    (date "2022-01-28")
+    (rev "1")
+    (company "Halidelabs")
+    (comment 1 "contact@halidelabs.eu")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
