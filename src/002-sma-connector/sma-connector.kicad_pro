@@ -381,7 +381,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "sma-connector.step",
-      "vrml": ""
+      "vrml": "../../../../../tmp/osobiste/modular-rf-bench-models/sma-connector.wrl"
     },
     "page_layout_descr_file": ""
   },

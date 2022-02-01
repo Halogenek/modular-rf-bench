@@ -381,7 +381,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "base.step",
-      "vrml": ""
+      "vrml": "../../../../../tmp/osobiste/modular-rf-bench-models/base.wrl"
     },
     "page_layout_descr_file": ""
   },

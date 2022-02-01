@@ -381,7 +381,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "pcb-connector.step",
-      "vrml": ""
+      "vrml": "../../../../../tmp/osobiste/modular-rf-bench-models/pcb-connector.wrl"
     },
     "page_layout_descr_file": ""
   },
