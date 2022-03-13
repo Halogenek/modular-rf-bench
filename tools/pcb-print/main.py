@@ -45,8 +45,6 @@ plot_plan = [
 
 for layer_info in plot_plan:
     pc.SetLayer(layer_info[1])
-    pc.SetColorMode(True)
-    board.PLOTTER.SetColor(color=pcbnew.LIGHTGRAY)
     pc.OpenPlotfile(layer_info[0], pcbnew.PLOT_FORMAT_SVG, layer_info[2])
     pc.PlotLayer()
 
