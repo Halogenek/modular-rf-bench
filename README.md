@@ -40,11 +40,19 @@ amount of solder to the trace it started to work.
 <img src="measurement.jpg" alt="Transmission line measurement" width="100%"/>
 
 ## Measurements
-I'm posting only the S11 measurements with a 50 Ohm termination on the second
-port of the setup because I'm measuring with a nanoVNA and I'm getting strange
-results for other S parameters. After I  get my hand on a better VNA in a week
-or so I will redo the measurements.
+### Measurements of two connected SMA adapters done on nanoVNA.
+*S11 50 Ohm termination*
 <img src="s11_50_load.png" alt="S11 measurement" width="100%"/>
+*S11 50 Ohm termination by Port 2 of nanoVNA*
+<img src="s11_port2_load.png" alt="S11 measurement" width="100%"/>
+
+### Measurements of two connected SMA adapters done on better VNA.
+*S11 50 Ohm termination*
+<img src="s11_50_load_sig.png" alt="S11 measurement" width="100%"/>
+*S11 50 Ohm termination by Port 2 of VNA*
+<img src="S11_port2_load_sig.png" alt="S11 measurement" width="100%"/>
+*S21*
+<img src="S21_sig.png" alt="S21 measurement" width="100%"/>
 
 I wasn't excepting much after 0,8 mm FR4 PCB but it is usable up to 1,5 GHz.
 The board to board connection is working and everything is pretty durable.
