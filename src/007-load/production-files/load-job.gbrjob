@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.1-79c1e3a40b~116~ubuntu20.04.1"
+      "Version": "6.0.9+dfsg-1~bpo11+1"
     },
-    "CreationDate": "2022-01-29T12:40:02+01:00"
+    "CreationDate": "2022-11-06T17:06:22+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "load",
       "GUID": "6c6f6164-2e6b-4696-9361-645f70636258",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size": {
       "X": 10.1,
@@ -51,6 +51,11 @@
     {
       "Path": "load-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "load-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -107,6 +112,11 @@
       "Color": "Black",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Bottom Silk Screen"
     }
   ]
 }
