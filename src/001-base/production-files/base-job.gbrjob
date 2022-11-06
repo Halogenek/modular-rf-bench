@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.1-79c1e3a40b~116~ubuntu20.04.1"
+      "Version": "6.0.9+dfsg-1~bpo11+1"
     },
-    "CreationDate": "2022-01-29T11:27:01+01:00"
+    "CreationDate": "2022-11-06T13:23:44+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "base",
       "GUID": "62617365-2e6b-4696-9361-645f70636258",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size": {
       "X": 99.1,
@@ -19,7 +19,7 @@
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
-    "Finish": "Immersion gold"
+    "Finish": "HAL lead-free"
   },
   "DesignRules": [
     {
@@ -40,6 +40,11 @@
     {
       "Path": "base-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "base-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
@@ -64,6 +69,11 @@
     }
   ],
   "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Top Silk Screen"
+    },
     {
       "Type": "SolderMask",
       "Color": "Black",

@@ -33,7 +33,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
+          "drill": 2.0,
           "height": 3.4,
           "width": 3.4
         },
