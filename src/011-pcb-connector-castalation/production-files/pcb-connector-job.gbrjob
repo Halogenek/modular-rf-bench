@@ -3,22 +3,22 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.1-79c1e3a40b~116~ubuntu20.04.1"
+      "Version": "6.0.9+dfsg-1~bpo11+1"
     },
-    "CreationDate": "2022-01-31T13:36:18+01:00"
+    "CreationDate": "2022-11-07T06:27:49+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "pcb-connector",
       "GUID": "7063622d-636f-46e6-9e65-63746f722e6b",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size": {
       "X": 7.9284,
       "Y": 18.1
     },
     "LayerNumber": 2,
-    "BoardThickness": 0.8,
+    "BoardThickness": 1.6,
     "Finish": "None"
   },
   "DesignRules": [
@@ -40,6 +40,11 @@
     {
       "Path": "pcb-connector-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-connector-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
@@ -65,6 +70,11 @@
   ],
   "MaterialStackup": [
     {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Top Silk Screen"
+    },
+    {
       "Type": "SolderMask",
       "Color": "Black",
       "Thickness": 0.01,
@@ -77,7 +87,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.71,
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
