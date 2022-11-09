@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "modular-rf-bench-footprints")(type "KiCad")(uri "${KIPRJMOD}/../modular-rf-bench-footprints.pretty")(options "")(descr ""))
+)
