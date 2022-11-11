@@ -16,4 +16,9 @@
     (tstamp 993fbd63-0478-479d-b846-accbdabf04a9)
   )
   (pad "1" thru_hole circle (at 0 0) (size 8 8) (drill 5.1) (layers *.Cu *.Mask) (tstamp c99eb6e5-ed6d-4f0e-8967-1e11fe4cda78))
+  (model "${KIPRJMOD}/../modular-rf-bench-3d-models/GC4012-F/GC4012-F.step"
+    (offset (xyz 0 0 -14))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
