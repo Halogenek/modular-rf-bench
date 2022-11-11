@@ -1,7 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/kicad
-# Edit at https://www.toptal.com/developers/gitignore?templates=kicad
-
 ### KiCad ###
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
@@ -42,4 +38,9 @@ bom/
 # Gerber export output
 out/
 
-# End of https://www.toptal.com/developers/gitignore/api/kicad
+### FreeCad ###
+*.pyc
+*.fcstd1
+*.FCStd1
+*.fcstd2
+*.FCStd2
