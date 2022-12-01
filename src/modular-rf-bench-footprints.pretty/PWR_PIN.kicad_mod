@@ -1,0 +1,18 @@
+(footprint "PWR_PIN" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5A0F774F)
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "J4" (at 0 -1.648) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0010bfb4-e182-4f53-b516-18d3fd8d506b)
+  )
+  (fp_text value "PWR_PIN" (at 0 1.75) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5c77aa26-8c71-463e-8e8d-98d35b26da23)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f5712e53-871a-49b1-91a2-ff805a47ebf0)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask) (tstamp f368a59d-fbfd-4134-a651-5de5d976e07a))
+)
