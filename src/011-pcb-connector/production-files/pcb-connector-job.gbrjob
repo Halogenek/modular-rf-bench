@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.9+dfsg-1~bpo11+1"
+      "Version": "6.0.11+dfsg-1"
     },
-    "CreationDate": "2022-11-07T06:27:49+01:00"
+    "CreationDate": "2023-06-30T12:30:46+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -43,6 +43,16 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "pcb-connector-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-connector-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "pcb-connector-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
@@ -75,6 +85,10 @@
       "Name": "Top Silk Screen"
     },
     {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
       "Type": "SolderMask",
       "Color": "Black",
       "Thickness": 0.01,
@@ -102,6 +116,10 @@
       "Color": "Black",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
     },
     {
       "Type": "Legend",
